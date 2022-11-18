@@ -1,0 +1,27 @@
+.skills-grid {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex: 0 0 33.33333%
+}
+
+.skill-label {
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.skill-icon {
+    
+    max-height: 75px;
+    max-width: 75px;
+}
