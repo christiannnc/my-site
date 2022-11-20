@@ -7,9 +7,13 @@ export default function Contact() {
             <h2>Let's talk!</h2>
 
             <div className="form-container">
-                <a>christian.m.cox@outlook.com</a>
+                <a
+                    className="contact-link"
+                    href="mailto:christian@christianmcox.com"
+                >
+                    christian@christianmcox.com
+                </a>
             </div>
         </div>
     );
 }
-†
