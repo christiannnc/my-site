@@ -1,0 +1,32 @@
+.contact-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.text-input {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 5px;
+    height: 25px;
+    width: 100%;
+    margin: 10px;
+}

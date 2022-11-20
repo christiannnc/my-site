@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import "../css/technicalSkills.css";
 
 export default function TechnicalSkills() {
-    const [selectedCategory, setSelectedCategory] = useState("All");
+    const [selectedCategory, setSelectedCategory] = useState("all");
 
     return (
         <div className="technical-skills-section">

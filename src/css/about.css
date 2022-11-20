@@ -1,0 +1,42 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-quote {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.quote-container {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.headshot-img {
+    margin: 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 -5px;
+}
+
+.about-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    padding: 20px;
+}
+
+.education-label {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}

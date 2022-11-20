@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
 import TechnicalSkills from "../components/TechnicalSkills";
 import "../css/hello.css";
@@ -19,8 +20,9 @@ export default function Hello() {
             <div className="welcome-div">
                 <h1 className="cc-hello-header">Hello, I'm Christian</h1>
             </div>
-            <TechnicalSkills />
             <About />
+            <TechnicalSkills />
+            <Contact />
         </div>
     );
 }
