@@ -14,10 +14,24 @@ export default function About() {
 
             <div className="about-content-container">
                 <img className="headshot-img" src={headshot} />
-                <label className="education-label">
-                    Economics and Computer Science at North Carolina State
-                    University
-                </label>
+
+                <div className="resume-container">
+                    <a
+                        className="resume-download-link"
+                        href="../assets/resume.pdf"
+                        download
+                    >
+                        Download resume
+                    </a>
+                </div>
+
+                <div className="about-description-container">
+                    <span className="about-tag">{"<about>"}</span>
+                    <span className="about-description">
+                        I like to build things that solve problems
+                    </span>
+                    <span className="about-tag">{"</about>"}</span>
+                </div>
             </div>
         </div>
     );

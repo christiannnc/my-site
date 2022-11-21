@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
+import Resume from "../components/Resume";
 import TechnicalSkills from "../components/TechnicalSkills";
 import "../css/hello.css";
 
@@ -22,6 +23,7 @@ export default function Hello() {
             </div>
             <About />
             <TechnicalSkills />
+            <Resume />
             <Contact />
         </div>
     );

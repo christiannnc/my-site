@@ -16,17 +16,24 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    border-style: none;
+    background-color: #88ab75;
+    border-radius: 14px;
+    padding: 25px;
 }
 
 .contact-link {
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 5px;
     height: 25px;
     width: 100%;
     margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    font-weight: 600;
+    text-decoration: underline;
 }
