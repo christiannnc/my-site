@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap");
 .about-section {
     display: flex;
     flex-direction: column;
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .headshot-img {
@@ -37,6 +39,43 @@
 
 .education-label {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
+}
+
+.resume-container {
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.resume-download-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.about-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 60px;
+}
+.about-tag {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about-description {
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 28px;
 }
