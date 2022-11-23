@@ -1,5 +1,4 @@
 .technical-skills-section {
-    background-color: white;
     padding: 20px;
     min-height: 300px;
     display: flex;
@@ -8,7 +7,6 @@
 }
 
 .section-header {
-    color: black;
     font-weight: 600;
     font-size: 20px;
 }
@@ -32,9 +30,9 @@
 
 .category-label {
     cursor: pointer;
-    color: black;
     font-size: 20px;
     font-weight: 500;
+
 }
 
 .category-label:hover {
@@ -52,12 +50,6 @@
     flex-direction: row;
 }
 
-.category-div {
-    border-radius: 20px;
-    background-color: black;
-    height: 200px;
-}
-
 .skill-card {
     display: flex;
     flex-direction: column;
@@ -67,11 +59,10 @@
 
 .skill-label {
     font-weight: 600;
-    color: black;
     font-size: 16px;
     margin: 10px;
 }
 
 .skill-icon {
-    color: black;
+    color: var(--skill-icon-color);
 }

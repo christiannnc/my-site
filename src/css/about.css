@@ -66,6 +66,33 @@
     margin: 60px;
 }
 
+.interests-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.interest-list {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    column-gap: 20%;
+    justify-content: center;
+    background-color: #E9EBED;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+}
+
+.interest {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .about-description-details-container {
     margin-bottom: 25px;
 }

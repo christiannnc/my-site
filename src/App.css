@@ -1,5 +1,12 @@
-.App {
+.body {
   text-align: center;
+  --background-color: white;
+  --text-color: #282c34;
+}
+
+.body.dark {
+  --background-color: #1F1F1F;
+  --text-color: white;
 }
 
 .App-logo {
@@ -14,10 +21,10 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: var(--background-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: #282c34;
+  color: var(--text-color);
 }

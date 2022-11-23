@@ -4,6 +4,13 @@ import headshot from "../assets/images/headshot.jpg";
 import resume from "../assets/resume.pdf";
 
 export default function About() {
+    const interests = [
+        "Machine Learning",
+        "Cloud Computing",
+        "Internet of Things",
+        "Data Science",
+    ];
+
     return (
         <div className="about-section">
             <div className="quote-container">
@@ -32,9 +39,18 @@ export default function About() {
 
                 <div className="about-description-details-container">
                     <p className="about-description detailed">
-                        I am a sophomore studying Economics and Computer Science
-                        at North Carolina State University
+                        I'm an undergraduate at North Carolina State University
+                        studying Economics and Computer Science
                     </p>
+                </div>
+
+                <div className="interests-container">
+                    <h3>Areas of interest</h3>
+                    <div className="interest-list">
+                        {interests.map((interest) => (
+                            <label className="interest">{interest}</label>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
