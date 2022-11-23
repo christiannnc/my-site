@@ -65,6 +65,10 @@
     align-items: flex-start;
     margin: 60px;
 }
+
+.about-description-details-container {
+    margin-bottom: 25px;
+}
 .about-tag {
     font-family: "Source Code Pro", monospace;
     font-weight: 500;
@@ -78,4 +82,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 28px;
+}
+
+.detailed {
+    font-size: 22px;
+    margin-top: 25px;
 }

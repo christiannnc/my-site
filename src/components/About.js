@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/about.css";
 import headshot from "../assets/images/headshot.jpg";
+import resume from "../assets/resume.pdf";
 
 export default function About() {
     return (
@@ -16,11 +17,7 @@ export default function About() {
                 <img className="headshot-img" src={headshot} />
 
                 <div className="resume-container">
-                    <a
-                        className="resume-download-link"
-                        href="../assets/resume.pdf"
-                        download
-                    >
+                    <a className="resume-download-link" href={resume} download>
                         Download resume
                     </a>
                 </div>
@@ -31,6 +28,13 @@ export default function About() {
                         I like to build things that solve problems
                     </span>
                     <span className="about-tag">{"</about>"}</span>
+                </div>
+
+                <div className="about-description-details-container">
+                    <p className="about-description detailed">
+                        I am a sophomore studying Economics and Computer Science
+                        at North Carolina State University
+                    </p>
                 </div>
             </div>
         </div>

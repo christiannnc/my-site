@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../css/navbar.css";
-import BurgerMenu from "./BurgerMenu";
 import NavbarTabs from "../components/NavbarTabs";
 import menuIcon from "../assets/images/hamburger_menu_rounded.png";
 import logo from "../assets/images/logo.png";
