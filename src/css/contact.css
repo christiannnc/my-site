@@ -18,7 +18,7 @@
     align-items: center;
     width: 50%;
     border-style: none;
-    background-color: #003049;
+    background-color: #007ea7;
     border-radius: 14px;
     padding: 25px;
 }
@@ -37,4 +37,14 @@
 .contact-link:hover {
     font-weight: 600;
     text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .contact-link {
+        font-size: 18px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
 }

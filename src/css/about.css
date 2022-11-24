@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap");
+
 .about-section {
     display: flex;
     flex-direction: column;
@@ -35,8 +36,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 75%;
-    padding: 20px;
+    max-width: 80%;
 }
 
 .education-label {
@@ -79,7 +79,7 @@
 
 .interest-list {
     display: grid;
-    grid-template-columns: 25% 25%;
+    grid-template-columns: 40% 40%;
     column-gap: 20%;
     justify-content: center;
     background-color: #e9ebed;
@@ -113,7 +113,6 @@
 .about-description {
     font-weight: 500;
     font-size: 28px;
-    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 24px;
@@ -121,11 +120,76 @@
 
 .about-detailed {
     font-size: 20px;
-    margin-top: 25px;
     font-weight: 500;
     width: 80%;
+    margin-bottom: 10px;
 }
 
 .condensed {
     font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .interest {
+        font-size: 16px;
+    }
+
+    .about-description {
+        font-size: 22px;
+    }
+
+    .about-quote {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 750px) {
+    .about-description-container {
+        margin: 40px;
+        margin-top: 50px;
+    }
+    .about-description {
+        font-size: 20px;
+    }
+
+    .about-tag {
+        font-size: 16px;
+    }
+
+    .about-detailed {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 610px) {
+    .about-quote {
+        font-size: 36px;
+    }
+    .about-description-container {
+        margin: 20px;
+        margin-top: 50px;
+    }
+
+    .about-description {
+        font-size: 18px;
+    }
+
+    .about-tag {
+        font-size: 14px;
+    }
+
+    .about-detailed {
+        font-size: 18px;
+    }
+
+    .interest-list {
+        grid-template-columns: 60%;
+        row-gap: 10px;
+        width: 75%;
+    }
+
+    .headshot-img {
+        width: 250px;
+        height: 250px;
+    }
 }

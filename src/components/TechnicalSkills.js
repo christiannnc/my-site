@@ -10,30 +10,57 @@ export default function TechnicalSkills() {
 
             <div className="skills-selector-container">
                 <div className="skills-category-selector">
-                    <label
-                        className="category-label"
-                        onClick={(e) => setSelectedCategory("all")}
-                    >
-                        All
-                    </label>
-                    <label
-                        className="category-label"
-                        onClick={(e) => setSelectedCategory("languages")}
-                    >
-                        Languages
-                    </label>
-                    <label
-                        className="category-label"
-                        onClick={(e) => setSelectedCategory("frameworks")}
-                    >
-                        Frameworks
-                    </label>
-                    <label
-                        className="category-label"
-                        onClick={(e) => setSelectedCategory("databases")}
-                    >
-                        Databases
-                    </label>
+                    <div className="category-label-container">
+                        <label
+                            className={
+                                selectedCategory === "all"
+                                    ? "category-label selected"
+                                    : "category-label"
+                            }
+                            onClick={(e) => setSelectedCategory("all")}
+                        >
+                            All
+                        </label>
+                    </div>
+
+                    <div className="category-label-container">
+                        <label
+                            className={
+                                selectedCategory === "languages"
+                                    ? "category-label selected"
+                                    : "category-label"
+                            }
+                            onClick={(e) => setSelectedCategory("languages")}
+                        >
+                            Languages
+                        </label>
+                    </div>
+
+                    <div className="category-label-container">
+                        <label
+                            className={
+                                selectedCategory === "frameworks"
+                                    ? "category-label selected"
+                                    : "category-label"
+                            }
+                            onClick={(e) => setSelectedCategory("frameworks")}
+                        >
+                            Frameworks
+                        </label>
+                    </div>
+
+                    <div className="category-label-container">
+                        <label
+                            className={
+                                selectedCategory === "databases"
+                                    ? "category-label selected"
+                                    : "category-label"
+                            }
+                            onClick={(e) => setSelectedCategory("databases")}
+                        >
+                            Databases
+                        </label>
+                    </div>
                 </div>
             </div>
 
