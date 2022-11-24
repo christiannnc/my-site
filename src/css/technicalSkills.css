@@ -48,8 +48,9 @@
     flex-wrap: wrap;
     flex: 0 0 10em;
     column-gap: 30px;
-    width: 50%;
-    justify-content: space-evenly;
+    width: 80%;
+    justify-content: center;
+
     flex-direction: row;
     margin-top: 10px;
 }
@@ -59,6 +60,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .skill-label {
@@ -90,5 +93,9 @@
 @media (max-width: 610px) {
     .skills-container {
         margin-top: 25px;
+    }
+
+    .skills-selector-container {
+        width: 80%;
     }
 }
