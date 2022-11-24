@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.76467895.css",
-    "main.js": "/static/js/main.da1165f0.js",
+    "main.css": "/static/css/main.855c368e.css",
+    "main.js": "/static/js/main.c34fbb35.js",
     "static/media/portrait.jpg": "/static/media/portrait.988df1a93609bc2441e8.jpg",
     "static/media/resume.pdf": "/static/media/resume.21e9e8ab8386df99898c.pdf",
     "static/media/logo.png": "/static/media/logo.b0fac324946c5b039db0.png",
@@ -10,11 +10,11 @@
     "index.html": "/index.html",
     "static/media/hamburger-menu-dark.svg": "/static/media/hamburger-menu-dark.4219a7b9645eac7671b613b9bc3f8b60.svg",
     "static/media/hamburger-menu.svg": "/static/media/hamburger-menu.744ae00d520edb5ec6936e4bbbe26179.svg",
-    "main.76467895.css.map": "/static/css/main.76467895.css.map",
-    "main.da1165f0.js.map": "/static/js/main.da1165f0.js.map"
+    "main.855c368e.css.map": "/static/css/main.855c368e.css.map",
+    "main.c34fbb35.js.map": "/static/js/main.c34fbb35.js.map"
   },
   "entrypoints": [
-    "static/css/main.76467895.css",
-    "static/js/main.da1165f0.js"
+    "static/css/main.855c368e.css",
+    "static/js/main.c34fbb35.js"
   ]
 }
