@@ -1,7 +1,10 @@
 import React, { useContext, useState } from "react";
 import "../css/navbar.css";
 import NavbarTabs from "../components/NavbarTabs";
-import menuIcon from "../assets/images/hamburger_menu_rounded.png";
+import menuIcon from "../assets/images/hamburger-menu.svg";
+import menuIconDark from "../assets/images/hamburger-menu-dark.svg";
+import darkMode from "../assets/images/dark-mode.svg";
+import lightMode from "../assets/images/light-mode.svg";
 import logo from "../assets/images/logo.png";
 import { ThemeContext } from "../App";
 
@@ -18,15 +21,19 @@ export default function Navbar() {
 
                 <div className="hamburger-menu">
                     <button
+                        className="theme-btn"
                         onClick={() =>
                             context.setIsDarkMode(!context.isDarkMode)
                         }
                     >
-                        Dark mode
+                        <img
+                            className="theme-icon"
+                            src={context.isDarkMode ? darkMode : lightMode}
+                        />
                     </button>
                     <img
                         onClick={() => setMenuOpen(!menuOpen)}
-                        src={menuIcon}
+                        src={context.isDarkMode ? menuIconDark : menuIcon}
                         className="hamburger-menu icon"
                     />
                 </div>

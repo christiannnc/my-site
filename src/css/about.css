@@ -8,7 +8,9 @@
 
 .about-quote {
     font-weight: 800;
-    font-size: 48px;
+    font-size: 44px;
+    margin-bottom: 75px;
+    margin-top: 0px;
 }
 
 .quote-container {
@@ -72,6 +74,7 @@
     justify-content: center;
     align-items: center;
     width: 75%;
+    margin-top: 25px;
 }
 
 .interest-list {
@@ -79,7 +82,7 @@
     grid-template-columns: 25% 25%;
     column-gap: 20%;
     justify-content: center;
-    background-color: #E9EBED;
+    background-color: #e9ebed;
     border-radius: 12px;
     padding: 20px;
     width: 100%;
@@ -88,14 +91,19 @@
 .interest {
     color: #333333;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .about-description-details-container {
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .about-tag {
     font-family: "Source Code Pro", monospace;
     font-weight: 500;
@@ -108,10 +116,16 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 28px;
+    margin-left: 24px;
 }
 
-.detailed {
-    font-size: 22px;
+.about-detailed {
+    font-size: 20px;
     margin-top: 25px;
+    font-weight: 500;
+    width: 80%;
+}
+
+.condensed {
+    font-weight: 600;
 }

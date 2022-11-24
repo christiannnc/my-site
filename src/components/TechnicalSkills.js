@@ -6,7 +6,7 @@ export default function TechnicalSkills() {
 
     return (
         <div className="technical-skills-section">
-            <h2>Skills</h2>
+            <h3>Skills</h3>
 
             <div className="skills-selector-container">
                 <div className="skills-category-selector">
