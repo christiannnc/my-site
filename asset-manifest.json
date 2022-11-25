@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.f6f31d9a.css",
-    "main.js": "/static/js/main.c34fbb35.js",
+    "main.js": "/static/js/main.adc9f128.js",
     "static/media/portrait.jpg": "/static/media/portrait.988df1a93609bc2441e8.jpg",
-    "static/media/resume.pdf": "/static/media/resume.21e9e8ab8386df99898c.pdf",
+    "static/media/christian_cox_resume.pdf": "/static/media/christian_cox_resume.53ae8b57b96072f69d06.pdf",
     "static/media/logo.png": "/static/media/logo.b0fac324946c5b039db0.png",
     "static/media/light-mode.svg": "/static/media/light-mode.1f98aa7cc5407f02c0023ed00fb5c4b1.svg",
     "static/media/dark-mode.svg": "/static/media/dark-mode.2715b78ce499b601a694609dd1bd9105.svg",
@@ -11,10 +11,10 @@
     "static/media/hamburger-menu-dark.svg": "/static/media/hamburger-menu-dark.4219a7b9645eac7671b613b9bc3f8b60.svg",
     "static/media/hamburger-menu.svg": "/static/media/hamburger-menu.744ae00d520edb5ec6936e4bbbe26179.svg",
     "main.f6f31d9a.css.map": "/static/css/main.f6f31d9a.css.map",
-    "main.c34fbb35.js.map": "/static/js/main.c34fbb35.js.map"
+    "main.adc9f128.js.map": "/static/js/main.adc9f128.js.map"
   },
   "entrypoints": [
     "static/css/main.f6f31d9a.css",
-    "static/js/main.c34fbb35.js"
+    "static/js/main.adc9f128.js"
   ]
 }
