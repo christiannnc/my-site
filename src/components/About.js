@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/about.css";
 import headshot from "../assets/images/portrait.jpg";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/christian_cox_resume.pdf";
 
 export default function About() {
     const interests = [
