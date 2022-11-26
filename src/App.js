@@ -1,7 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import "./App.css";
 import Hello from "./screens/Hello";
-
 // will be used for multiple pages in the future
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
