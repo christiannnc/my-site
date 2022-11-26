@@ -80,7 +80,7 @@
 .interest-list {
     display: grid;
     grid-template-columns: 40% 40%;
-    column-gap: 20%;
+    column-gap: 10%;
     justify-content: center;
     background-color: #e9ebed;
     border-radius: 12px;
@@ -171,7 +171,7 @@
     }
 
     .about-description {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .about-tag {
@@ -195,6 +195,14 @@
 }
 
 @media (max-width: 400px) {
+    .about-quote {
+        font-size: 32px;
+    }
+
+    .about-description {
+        font-size: 16px;
+    }
+
     .about-description-container {
         margin: 20px;
         margin-top: 50px;
