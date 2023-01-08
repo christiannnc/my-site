@@ -5,9 +5,9 @@ import resume from "../assets/christian_cox_resume.pdf";
 
 export default function About() {
     const interests = [
-        "Machine Learning",
+        "Machine Learning & AI",
         "Cloud Computing",
-        "Internet of Things",
+        "Game Development",
         "Data Science",
     ];
 
