@@ -7,7 +7,7 @@ export default function About() {
     const interests = [
         "Machine Learning & AI",
         "Cloud Computing",
-        "Game Development",
+        "Cryptography",
         "Data Science",
     ];
 
