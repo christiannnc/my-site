@@ -31,7 +31,7 @@ export default function NavbarTabs({ close }) {
             <div className="nav-tab">
                 <a
                     className="nav-link"
-                    href="https://twitter.com/christiannnc_"
+                    href="https://x.com/christiannnc_"
                     target={"_blank"}
                 >
                     twitter
@@ -41,7 +41,7 @@ export default function NavbarTabs({ close }) {
             <div className="nav-tab">
                 <a
                     className="nav-link"
-                    href="mailto:christian.m.cox@outlook.com"
+                    href="mailto:christian@christianmcox.com"
                     target={"_blank"}
                 >
                     email
