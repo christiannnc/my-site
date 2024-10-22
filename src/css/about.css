@@ -1,215 +1,215 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
 
 .about-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-quote {
-    font-weight: 800;
-    font-size: 44px;
-    margin-bottom: 75px;
-    margin-top: 0px;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 75px;
+  margin-top: 0px;
 }
 
 .quote-container {
-    max-width: 75%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 50px;
+  max-width: 75%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .headshot-img {
-    margin: 50px;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 0 -5px;
+  margin: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 -5px;
 }
 
 .about-content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 95%;
 }
 
 .education-label {
-    font-weight: 600;
-    font-size: 22px;
-    text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
 }
 
 .resume-container {
-    background-color: skyblue;
-    padding: 10px;
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
 }
 
 .resume-download-link {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .about-description-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  margin: 60px;
 }
 
 .interests-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin-top: 25px;
 }
 
 .interest-list {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    column-gap: 10%;
-    justify-content: center;
-    background-color: #e9ebed;
-    border-radius: 12px;
-    padding: 20px;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 10%;
+  justify-content: center;
+  background-color: #e9ebed;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
 }
 
 .interest {
-    color: #333333;
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .about-description-details-container {
-    margin-bottom: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-tag {
-    font-family: "Source Code Pro", monospace;
-    font-weight: 500;
-    font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .about-description {
-    font-weight: 600;
-    font-size: 28px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 24px;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 24px;
 }
 
 .about-detailed {
-    font-size: 20px;
-    font-weight: 500;
-    width: 80%;
-    margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 80%;
+  margin-bottom: 10px;
 }
 
 .condensed {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 @media (max-width: 900px) {
-    .interest {
-        font-size: 16px;
-    }
+  .interest {
+    font-size: 16px;
+  }
 
-    .about-description {
-        font-size: 22px;
-    }
+  .about-description {
+    font-size: 22px;
+  }
 
-    .about-quote {
-        font-size: 38px;
-    }
+  .about-quote {
+    font-size: 38px;
+  }
 }
 
 @media (max-width: 750px) {
-    .about-description-container {
-        margin: 40px;
-        margin-top: 50px;
-    }
-    .about-description {
-        font-size: 20px;
-    }
+  .about-description-container {
+    margin: 40px;
+    margin-top: 50px;
+  }
+  .about-description {
+    font-size: 20px;
+  }
 
-    .about-tag {
-        font-size: 16px;
-    }
+  .about-tag {
+    font-size: 16px;
+  }
 
-    .about-detailed {
-        font-size: 20px;
-    }
+  .about-detailed {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 610px) {
-    .about-quote {
-        font-size: 36px;
-    }
-    .about-description-container {
-        margin: 20px;
-        margin-top: 50px;
-    }
+  .about-quote {
+    font-size: 36px;
+  }
+  .about-description-container {
+    margin: 20px;
+    margin-top: 50px;
+  }
 
-    .about-description {
-        font-size: 20px;
-    }
+  .about-description {
+    font-size: 20px;
+  }
 
-    .about-tag {
-        font-size: 14px;
-    }
+  .about-tag {
+    font-size: 14px;
+  }
 
-    .about-detailed {
-        font-size: 16px;
-    }
+  .about-detailed {
+    font-size: 16px;
+  }
 
-    .interest-list {
-        grid-template-columns: 60%;
-        row-gap: 10px;
-        width: 95%;
-    }
+  .interest-list {
+    grid-template-columns: 60%;
+    row-gap: 10px;
+    width: 95%;
+  }
 
-    .headshot-img {
-        width: 250px;
-        height: 250px;
-    }
+  .headshot-img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @media (max-width: 400px) {
-    .about-quote {
-        font-size: 32px;
-    }
+  .about-quote {
+    font-size: 32px;
+  }
 
-    .about-description {
-        font-size: 16px;
-    }
+  .about-description {
+    font-size: 16px;
+  }
 
-    .about-description-container {
-        margin: 20px;
-        margin-top: 50px;
-    }
+  .about-description-container {
+    margin: 20px;
+    margin-top: 50px;
+  }
 
-    .headshot-img {
-        width: 225px;
-        height: 225px;
-    }
+  .headshot-img {
+    width: 225px;
+    height: 225px;
+  }
 }
