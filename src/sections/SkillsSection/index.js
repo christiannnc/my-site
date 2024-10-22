@@ -22,7 +22,7 @@ const SKILL_CARD_MAPPING = [
   {
     skill: 'GraphQL',
     img: 'devicon-graphql-plain skill-icon',
-    category: 'languages',
+    category: 'frameworks',
   },
   {
     skill: 'React',
