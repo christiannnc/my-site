@@ -7,8 +7,8 @@ const AboutSection = () => {
   const interests = [
     'Web & Mobile Development',
     'Cloud Computing',
-    'FinTech',
-    'Data Science',
+    'Artificial Intelligence',
+    'API Development',
   ];
 
   return (
