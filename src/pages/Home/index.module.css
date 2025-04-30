@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+
+@keyframes welcomeMsg {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.helloHeader {
+  font-weight: 700;
+  font-size: 52px;
+  animation: welcomeMsg;
+  animation-duration: 0.75s;
+}
+
+.aboutSectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portrait {
+  margin: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 -5px;
+}
+
+.viewResumeLink {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  margin: 60px;
+}
+
+.paragraphContainer {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.description {
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 24px;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.condensed {
+  font-weight: 600;
+}
+
+.technicalSkillsContainer {
+  padding: 20px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skillSelectorContainer {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.skillCategorySelector {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.skillCategoryLabel {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.skillCategoryLabel:hover {
+  text-shadow: 1px 0 0;
+  text-decoration: underline;
+}
+
+.selected {
+  text-shadow: 1px 0 0;
+  color: #007ea7;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 10em;
+  column-gap: 30px;
+  width: 80%;
+  justify-content: center;
+
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.contactContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.emailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-style: none;
+  background-color: #007ea7;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+.email {
+  font-weight: 500;
+  font-size: 22px;
+  height: 25px;
+  width: 100%;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.email:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .description {
+    font-size: 22px;
+  }
+
+  .skillCategoryLabel {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  .paragraphContainer {
+    margin: 40px;
+    margin-top: 50px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .tag {
+    font-size: 16px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+  }
+
+  .skillCategoryLabel {
+    font-size: 16px;
+  }
+
+  .emailContainer {
+    padding: 16px;
+    width: 80%;
+  }
+
+  .email {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 610px) {
+  .paragraphContainer {
+    margin: 20px;
+    margin-top: 50px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .tag {
+    font-size: 14px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .portrait {
+    width: 250px;
+    height: 250px;
+  }
+
+  .skillsContainer {
+    margin-top: 25px;
+  }
+
+  .skillSelectorContainer {
+    width: 95%;
+  }
+}
+
+@media (max-width: 400px) {
+  .description {
+    font-size: 16px;
+  }
+
+  .paragraphContainer {
+    margin: 20px;
+    margin-top: 50px;
+  }
+
+  .portrait {
+    width: 225px;
+    height: 225px;
+  }
+}

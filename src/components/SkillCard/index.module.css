@@ -1,0 +1,20 @@
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skillLabel {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 10px;
+}
+
+@media (max-width: 750px) {
+  .skill-label {
+    font-size: 14px;
+  }
+}
